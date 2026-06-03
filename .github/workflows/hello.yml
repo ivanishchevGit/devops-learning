@@ -4,16 +4,11 @@ jobs:
   say-hello:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-      - name: Run hello script
-        run: bash hello.sh
+      - uses: actions/checkout@v4
+      - run: bash hello.sh
   show-files:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-      - name: Print current directory
-        run: pwd
-      - name: List files
-        run: ls -la
+      - uses: actions/checkout@v4
+      - run: pwd
+      - run: ls -la

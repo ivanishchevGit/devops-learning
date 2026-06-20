@@ -1,4 +1,3 @@
 #!/bin/bash
-echo "Hello, CI/CD!"
-echo "Hello, CI/CD!!! 2!"
-echo "Тест работы Git"
+echo "Hello, CI/CD! тест"
+echo "Hello, CI/CD! тест2"

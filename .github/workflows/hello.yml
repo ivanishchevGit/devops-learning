@@ -1,5 +1,6 @@
 name: Hello Pipeline #имя workflow
-on: [push] #работает при пуше
+#on: [push] #работает при пуше
+on: workflow_dispatch
 jobs:
   say-hello: #имя джоба
     runs-on: ubuntu-latest #на чем будет работать
